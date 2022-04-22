@@ -1,0 +1,552 @@
+/*Montserrat & Alfa+Slab font family */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*===========
+  Global CSS
+ ============*/
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ body, html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+ }
+ body{
+    font-family: 'Montserrat', sans-serif;
+ }
+ h1, h2{
+    font-family: 'Alfa Slab One', cursive;
+ }
+button{
+    font-family: 'Alfa Slab One', cursive;
+}
+a{
+
+}
+.no-padding{
+    padding:0;
+}
+
+/*=============
+ Header Section
+ ==============*/
+ header{
+    background:url(../img/background-banner.png)no-repeat center top;
+    background-size: cover;
+    padding: 25px 0;
+ }
+ .contact-info{
+    text-align: right;
+ }
+.contact-info li{
+    list-style: none;
+    display: inline;
+    padding: 0 15px;
+    line-height: 61px;
+}
+.mobile-logo{
+    display: none;
+}
+ nav{
+    margin-top: -35px;
+ }
+ .nav-item{
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0 5px;
+ }
+ .navbar-light .navbar-nav .nav-link{
+    color: #3d2514;
+ }
+ .navbar-light .navbar-nav .nav-link:focus, 
+ .navbar-light .navbar-nav .nav-link:hover {
+    color:#bf2222 ;
+}
+ /*Bannar Section*/
+ .banner-content{
+    padding:100px 0 50px ;
+ }
+.banner-content h4 {
+    color: #3d2514;
+    border: 2px dashed #3d2514;
+    font-size: 18px;
+    padding: 10px 21px;
+    width: 83%;
+    margin-top: 145px;
+}
+.banner-content h1{
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 120px;
+    text-shadow: 3px 3px 5px #fff;
+    margin: 0px;
+    line-height: 100px;
+    padding-top: 15px;
+
+}
+.banner-content h3{
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px #fff;
+    font-size: 60px;
+}
+.burgar-img{
+    position: relative;
+}
+.package-price {
+    position: absolute;
+    background: #bf2222;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    left: -16px;
+    bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.package-price-border{
+    border: 2px dashed #fff;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.package-price h2 {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 95px;
+    font-weight: 500;
+    padding-top: 76px;
+    line-height: 8px;
+}
+.package-price h2 span{
+     font-size: 30px;
+}
+.package-price p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 13px;
+    padding-left: 15px;
+}
+
+
+ /*===============
+  Features Section
+  ================*/
+.features-section{
+       padding: 100px 0 25px;
+}
+.features-item{
+    position: relative;
+    margin-bottom: 28px;
+}
+.features-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+
+}
+.features-content h5 {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 0;
+}
+.features-content h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 44px;
+}
+
+ /*=============
+   Menu Section
+  ==============*/
+.menu-section{
+    padding: 75px 0;
+
+}
+.menu-section h3{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #3d2514;
+    background: #ffc045;
+    padding: 10px 15px;
+    font-size: 22px;
+    width: 18%;
+    margin: 0 auto;
+}
+.menu-section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #3d2514;
+    font-size: 42px;
+    padding-top: 18px;
+}
+.menu-section p {
+    text-align: center;
+    color: #3d2514;
+    font-size: 17px;
+    line-height: 20px;
+}
+.menu-items{
+    padding: 50px;
+}
+.menu-items h3{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: #3d2514;
+    background: #fff;
+    padding: 10px 15px;
+    font-size: 34px;
+    width: 75%;
+    margin: 0 auto;
+}
+.menu-items p {
+    text-align: center;
+    color: #3d2514;
+    font-size: 15px;
+    line-height: 16px;
+}
+.btn-menu {
+    border: none;
+    padding: 15px 30px;
+    background: #bf2222;
+    color: #fff;
+    box-shadow: 1px 2px 1pc #333;
+}
+.btn-menu:hover{
+    background: #ffc045;
+    color: #3d2514;
+}
+.for-image-height {
+    min-height: 345px;
+}
+
+/*==============
+  Events Section
+  ==============*/
+
+.events-section{
+    padding: 75px 0;
+  }
+.events-area {
+    box-shadow: 0px 6px 10px #969090;
+    padding: 30px;
+}
+.events-section h4 {
+    color: #3d3d3d;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding-top: 35px;
+}
+.events-section h2 {
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+.events-section p {
+    color: #3d2514;
+    font-size: 18px;
+    line-height: 22px;
+    padding-right: 50px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 13px;
+    height: 13px;
+    margin: 5px 5px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -30px;
+    text-align: left;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -30px;
+    text-align: left;
+    z-index: 999;
+    position: relative;
+    outline: none;
+}
+.owl-theme .owl-dots .owl-dot.active,
+.owl-theme .owl-dots .owl-dot:hover,
+.owl-theme .owl-dots .owl-dot:focus{
+    outline: none;
+}
+
+
+
+/*==================
+ Reservation Section
+ ===================*/
+.reservtion-section{
+    background: url(../img/group5-background.png)no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.reservtion-section h4{
+    color: #3d3d3d;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    padding-top: 35px;
+    text-align: center;
+}
+.reservtion-section h2 {
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 25px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+.form-group{
+    padding: 0 0 25px;
+}
+.form-control{
+    border: 2px solid #bebebe;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.form-control:focus{
+    box-shadow:none;
+    border: 2px solid #ffc045;
+}
+.btn-reservation {
+    background: #bf2222;
+    width: 100%;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.btn-reservation:hover{
+    background: #ffc045;
+
+}
+
+
+/*==============
+  footer Section
+  ==============*/
+footer{
+    background: url(../img/footar-section-img.png) no-repeat center top;
+    background-size: cover;
+    padding: 75px 0 25px;
+}
+footer img{
+    width: 255px;
+    height: auto;
+}
+footer p{
+    color: #fff;
+    padding:25px 25px 25px 0;
+}
+.widget h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px 0;
+}
+.widget ul{
+    padding: 0;
+}
+.widget ul li{
+    list-style: none;
+}
+.useful-links ul li a{
+    text-decoration: none;
+    color: #eee;
+    line-height: 31px;
+    transition: 0.3s ease-in-out;
+}
+.useful-links ul li a:hover{
+    color: #ffc045;
+    padding-left: 5px;
+}
+.social-media ul li{
+    list-style: none;
+    display: inline;
+    margin:0 5px;
+}
+.social-media ul li a .fa{
+    color: #fff;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    background: #ffc045;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.social-media ul li a .fa:hover{ 
+    transform: rotate(360deg) scale(1.9);
+}
+.social-media ul li a .fa-facebook:hover{
+    background:#0B84ED;
+}
+.social-media ul li a .fa-twitter:hover{
+    background:#1C9CEA;
+}
+.social-media ul li a .fa-linkedin:hover{
+    background:#0A66C2;
+}
+.social-media ul li a .fa-instagram:hover{
+    background:#E34652;
+}
+.social-media ul li a .fa-youtube:hover{
+    background:#FF0000;
+}
+
+/*======================
+  Media Query For Notebook
+  ======================*/
+@media (min-width:768px) and (max-width: 992px){
+    
+    .contact-info li{  padding: 0 5px; font-size: 14px; }
+    .navbar-light .navbar-toggler {color: #3d2514;border-color: rgba(61,37,20.5);}
+    .banner-content{padding: 25px 0;}
+    .banner-content h4 { font-size: 16px; padding: 10px 20px; text-align: center; width: 100%; margin-top: 0;}
+    .banner-content h1 { font-size: 80px;line-height: 80px; padding-top: 0;}
+    .package-price {width: 150px; height: 150px; border-radius: 50%; left: -17px; bottom: -13px; padding: 7px;}
+    .package-price-border { width: 135px; height: 135px;}
+    .package-price h2 { font-size: 80px;  padding-top: 53px;}
+    .package-price p { font-size: 23px; letter-spacing: 9px; padding-left: 10px;}
+    .features-content {padding: 10px;}
+    .features-content h5 { font-size: 20px;}
+    .features-content h3 { font-size: 35px; line-height: 35px;}
+    .features-item { margin-bottom: 21px;}
+    .menu-section { padding: 30px 0;}
+    .menu-section h3 { width: 28%;}
+    .for-image-height { min-height: 45%;}
+    .menu-items h3 { font-size: 35px; width: 100%;}
+    .events-section { padding: 30px 0;}
+    .events-section h2 { line-height: 40px; padding-bottom: 5px; }
+    .events-section p {font-size: 16px;line-height: 20px; margin: 0 0 28px; padding-right: 0;}
+    .owl-carousel .owl-item img { margin-top: 80px;}
+    .reservtion-section { padding: 30px 0;}
+    footer { padding: 30px 0 0;}
+    footer img { width: 100%; margin-top: 8px;}
+    footer p { padding: 25px 0; font-size: 15px; line-height: 20px;}
+    .social-media ul li{margin: 0;}
+    .social-media ul li a .fa { font-size: 25px; width: 35px; height: 35px; line-height: 35px;}
+    .footer-p{ text-align: center; margin: 0;}
+}
+
+
+/*======================
+  Media Query For teblet
+  ======================*/
+@media (min-width:577px) and (max-width: 768px){
+
+    .logo{ display:none; }
+    .mobile-logo{display: initial;  width: 100%; }
+    .contact-info{text-align: center; padding: 0; }
+    .contact-info li{  padding: 0 5px; font-size: 14px; }
+    .navbar-light .navbar-toggler {color: #3d2514;border-color: rgba(61,37,20.5);}
+    .banner-content { padding:50px 0;}
+    .banner-content h4 { margin-top: 50px; width: 93%; text-align: center; margin: 0 auto; }
+    .banner-content h1{ font-size: 75px;  text-align: center; }
+    .banner-content h3{ font-size: 50px; line-height: 20px; text-align: center; } 
+    .package-price{width: 140px;height: 140px;border-radius: 50%;left: 25px;bottom: 15px;padding: 7px;}
+    .package-price-border { width: 125px; height: 125px;}
+    .package-price h2 { font-size: 70px;  padding-top: 48px;}
+    .package-price p { font-size: 20px; letter-spacing: 8px; padding-left: 11px;}
+    .features-section { padding: 50px 0 25px;}
+    .features-content { padding: 20px;}
+    .features-content h5{ font-size: 22px; }
+    .features-content h3{ font-size: 45px;line-height: 35px; }
+    .menu-section{ padding: 0; }
+    .menu-section h3{ font-size: 18px; width: 35%; }
+    .menu-section h2{ font-size: 40px; padding-top: 16px; }
+    .menu-section p{ font-size: 13px;line-height: 16px;}
+    .for-image-height { min-height: 200px;}
+    .menu-item{ margin-bottom: 50px;}
+    .menu-items { padding: 15px 0;}
+    .menu-item h3{ width: 100%; font-size: 35px; }
+    .events-section {padding: 0;}
+    .events-area { box-shadow: none;}
+    .events-section h4,
+    .events-section h2{ text-align: center;}
+    .events-section h2{ font-size: 40px;line-height: 30px;    }
+    .events-section p{padding: 0; text-align: center;}
+    .reservtion-section{ padding: 30px 0;}
+    .reservtion-section h2 {font-size: 40px;line-height: 28px;padding-bottom: 25px;}
+    footer{text-align: center;}
+    footer p{padding: 25px 0;}
+}
+
+
+/*======================
+  Media Query For Mobile
+  ======================*/
+@media (min-width:320px) and (max-width: 576px){
+
+    .logo{ display:none; }
+    .mobile-logo{display: initial;     width: 220px; }
+    .contact-info{text-align: center; padding: 0; }
+    .contact-info li{  padding: 0 5px; font-size: 14px; }
+    .navbar-light .navbar-toggler {color: #3d2514;border-color: rgba(61,37,20.5);}
+    .banner-content { padding:50px 0;}
+    .banner-content h4 { margin-top: 50px; width: 93%; text-align: center; margin: 0 auto; }
+    .banner-content h1{ font-size: 60px;  text-align: center; }
+    .banner-content h3{ font-size: 50px; line-height: 30px; text-align: center; } 
+    .package-price{width: 115px;height: 115px;border-radius: 50%;left: 50px;bottom: 5px;padding: 5px;}
+    .package-price-border { width: 105px; height: 105px;}
+    .package-price h2 { font-size: 55px;  padding-top: 40px;}
+    .package-price p { font-size: 18px; letter-spacing: 8px; padding-left: 11px;}
+    .features-section { padding: 50px 0 25px;}
+    .features-content { padding: 10px;}
+    .features-content h5{ font-size: 17px; }
+    .features-content h3{ font-size: 30px;line-height: 30px; }
+    .menu-section{ padding: 0; }
+    .menu-section h3{ font-size: 18px; width: 55%; }
+    .menu-section h2{ font-size: 30px; padding-top: 16px; }
+    .menu-section p{ font-size: 13px;line-height: 16px;}
+    .for-image-height { min-height: 200px;}
+    .menu-item{ margin-bottom: 50px;}
+    .menu-items { padding: 15px 0;}
+    .menu-item h3{ width: 100%; font-size: 25px; }
+    .events-section {padding: 0;}
+    .events-area { box-shadow: none;}
+    .events-section h4,
+    .events-section h2{ text-align: center;}
+    .events-section h2{ font-size: 30px;line-height: 30px;    }
+    .events-section p{padding: 0; text-align: center;}
+    .reservtion-section{ padding: 30px 0;}
+    .reservtion-section h2 {font-size: 30px;line-height: 28px;padding-bottom: 25px;}
+    footer{text-align: center;}
+    footer p{padding: 25px 0;}
+}
